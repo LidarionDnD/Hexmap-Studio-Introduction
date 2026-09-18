@@ -42,21 +42,21 @@ At the top of the palette, you can switch between four distinct editing layers:
 
 The same intuitive toolset is available across **Terrain**, **Custom Terrain**, and **Objects**:
 
-### <i class="fa-solid fa-paintbrush"></i> Brush Tool (`B`)
+### <i class="fa-solid fa-paintbrush"></i> Brush Tool
 * **Click to Place**: Single-click any hex to stamp the selected tile family.
 * **Drag to Paint**: Click and drag your mouse across the map to rapidly paint continuous landmasses.
 * **Brush Size Scaling (1 to 6 Hexes)**: Use the slider beneath the tools to scale your brush radius from a single hex up to a massive 6-hex cluster (covering up to 91 hexes in a single click!).
 * **Hover Highlight Preview**: As you move your mouse over the canvas, a glowing golden polygon overlay outlines the exact radius of hexes that will be affected.
 
-### <i class="fa-solid fa-fill-drip"></i> Bucket / Flood Fill (`F`)
+### <i class="fa-solid fa-fill-drip"></i> Bucket / Flood Fill
 * **Intelligent Flood Fill**: Click on any hex to flood-fill all connected identical hexes with your currently selected tile family.
 * **Variant Awareness**: If **Random Variant** is turned on, the fill algorithm automatically rolls varied art assets for every filled hex, producing a natural, variegated landscape without repetitive patterns.
 
-### <i class="fa-solid fa-eraser"></i> Eraser Tool (`E`)
+### <i class="fa-solid fa-eraser"></i> Eraser Tool
 * **Layer-Specific Erasing**: Click or drag across hexes to remove tiles on the active layer.
 * **Brush Size Support**: The Eraser respects your Brush Size slider (1–6 hexes) with a red preview outline, allowing you to clear large areas quickly.
 
-### <i class="fa-solid fa-eye-dropper"></i> Eyedropper Tool (`I`)
+### <i class="fa-solid fa-eye-dropper"></i> Eyedropper Tool
 * **Instant Asset Sampling**: Click on any placed tile or object on your map to immediately select its family in the palette.
 * **Automatic Tool Reset**: After sampling a tile, the Eyedropper automatically switches back to the **Brush Tool** so you can immediately continue painting.
 
@@ -97,12 +97,7 @@ Type into the search bar at the top of the palette to instantly filter tile fami
 ## 6. Canvas Navigation & Global Controls
 
 * **Pan Map without Painting**: Hold the **`Spacebar`** and drag with your mouse to pan around the scene freely.
-* **Undo & Redo**:
-  * **`Ctrl + Z`**: Undo the last painting, filling, or erasing action.
-  * **`Ctrl + Y`**: Redo the last undone action.
+* **Undo & Redo**
 * **Infinity Mode Toggle**:
-  * In the top-right options of the Studio, toggle **Infinity Mode** ON or OFF.
+  * In the options of the Studio, toggle **Infinity Mode** ON or OFF.
   * When **ON**, painting near the outer edges of the map automatically and seamlessly expands the scene boundaries outward, letting you grow your world organically.
-* **Clear All Tiles**:
-  * Accessible under the options dropdown; clears all placed tiles and objects across the map after a security confirmation.
-
