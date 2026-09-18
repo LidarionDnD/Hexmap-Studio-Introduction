@@ -1,2 +1,15 @@
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
+
+title: Lidarion Hexmap Studio
+description: Comprehensive User Guide & Documentation for Lidarion Hexmap Studio in Foundry VTT
+
+# Navigation structure
+nav_sort: nav_order
+enable_copy_code_button: true
+
+# Search settings
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3

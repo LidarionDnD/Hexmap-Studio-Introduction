@@ -1,1 +1,1 @@
-# Hexmap-Studio-Introduction
+# Lidarion Hexmap Studio - Documentation
