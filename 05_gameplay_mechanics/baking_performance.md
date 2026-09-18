@@ -26,7 +26,6 @@ When you design a map in Hexmap Studio, every terrain tile, road segment, and pl
 
 ### How to Bake a Map
 1. In the top-right corner of Hexmap Studio, click the **"Bake"** button (<i class="fa-solid fa-cake-candles"></i>).
-   *(Alternatively, click "Bake" on the scene card in the Hexmaps Directory).*
 2. A progress modal appears showing real-time chunk rendering and an accurate countdown timer.
 3. The engine renders all terrain hextiles, vector roads, flowing rivers, and object props into an optimized WebP image.
 4. Lidarion automatically generates a dedicated **Baked Scene** in your standard Foundry **Scenes directory** (`fa-map`), fully configured with the exact same grid dimensions, regions, and journal links!
