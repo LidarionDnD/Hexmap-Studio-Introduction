@@ -33,7 +33,6 @@ Clicking the **"New Hexmap"** button opens the creation dialog with the followin
 | **Scene Name** | `Hexmap Region` | The descriptive name of your campaign region, continent, or kingdom. |
 | **Columns (Width)** | `30` | The horizontal width of the map measured in hex columns. |
 | **Rows (Height)** | `20` | The vertical height of the map measured in hex rows. |
-| **Hex Size** | `180px` | The pixel diameter of individual hex cells. Lidarion hextiles are optimized for **180px**. |
 
 ### Automatic Grid Alignment
 Lidarion automatically configures the scene's grid type to **Hexagonal Column – Even** (`GridType: 4`). This ensures that hextiles, paths, tokens, and hover highlights align with mathematical precision.
@@ -48,10 +47,6 @@ If you configure a map exceeding **7,500 hex tiles**, a warning notice will appe
 
 Each hexmap in the directory is represented by an informative card:
 
-* **Status Badges**:
-  * <span class="badge" style="background:#22c55e;color:#fff;padding:2px 6px;border-radius:4px;">Active</span>: The map is currently active for players.
-  * <span class="badge" style="background:#3b82f6;color:#fff;padding:2px 6px;border-radius:4px;">Currently viewed</span>: The map is currently loaded on your GM canvas.
-  * <span class="badge" style="background:#8b5cf6;color:#fff;padding:2px 6px;border-radius:4px;">Baked</span>: Indicates that a high-performance background image has been compiled for this map.
 * **Tile Counter**: Displays the exact number of placed terrain tiles and object props.
 * **Hover Controls & Right-Click Menu**:
   * **View & Edit (Left-Click)**: Switches your canvas to this map and opens Hexmap Studio.
