@@ -26,28 +26,14 @@ The modal dynamically adapts its title, default accent colors (warm gold `#eab30
 The workshop features a generous **800×800 interactive canvas** with a dark checkerboard transparency background.
 
 ### Loading Artwork
-* **Drag-and-Drop**: Simply drag any image file (`.png`, `.jpg`, `.jpeg`, or `.webp`) from your computer file explorer directly onto the canvas.
+* **Drag-and-Drop**: Simply drag any image file (`.png`, `.jpg`, `.jpeg`, or `.webp`) from the file explorer directly onto the canvas.
 * **FilePicker**: Click the cloud upload button or the **"Load Image"** button in the sidebar to browse your Foundry VTT user data directories.
 
 ---
 
 ## 3. Understanding the Template Zones
 
-Behind your image, Lidarion displays three color-coded template zones to help you position your art with mathematical precision:
-
-```
-                  /\
-                 /  \      <-- Blue (Overhang Zone)
-                /    \
-            +--+------+--+
-           /              \
-          /   Core Hex     \
-         |     (Green)      |  <-- Must be filled for gapless maps
-          \                /
-           \              /
-            +------------+
-        [ Red (Cutoff Zone) ]  <-- Automatically clipped off
-```
+Behind your image, they displays two color-coded template zones to help you position your art with mathematical precision:
 
 1. **Green (Core Hex)**:
    * Represents the playable hexagonal cell on the canvas.
@@ -57,7 +43,7 @@ Behind your image, Lidarion displays three color-coded template zones to help yo
    * The allowed vertical overlap area extending above the core hex.
    * Perfect for high mountain peaks, towering pine trees, castle spires, or giant statues that naturally overlap the hex above them.
    * **"Mask blue overhang zone" Checkbox**: If your tile should be completely flat (e.g. flat grassland, sand dunes, or water), check this option. The Creator will automatically trim the blue overhang zone as well, producing a flush, flat hextile.
-3. **Red (Cutoff Zone)**:
+3. **Rest**:
    * Any portions of your image extending outside the green and blue zones are automatically clipped and made 100% transparent.
 
 ---
