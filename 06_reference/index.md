@@ -17,11 +17,6 @@ Keep this quick reference page handy for shortcuts, tool definitions, and settin
 | Shortcut | Action | Context |
 |:---|:---|:---|
 | **`Alt + H`** | Open / Toggle Hexmap Studio | Canvas (when viewing a hexmap scene) |
-| **`Ctrl + Z`** | Undo last action | Hexmap Studio |
-| **`Ctrl + Y`** | Redo last reverted action | Hexmap Studio |
-| **`Spacebar + Drag`** | Pan canvas freely without painting | Hexmap Studio |
-| **`Arrow Keys (↑ ↓ ← →)`** | 1-pixel micro-nudges | Custom Tile Creator |
-| **`Enter`** | Apply exact percentage zoom level | Custom Tile Creator (Zoom input field) |
 
 ---
 
@@ -44,14 +39,14 @@ Keep this quick reference page handy for shortcuts, tool definitions, and settin
 
 ## 3. Drawing Tools Summary
 
-| Tool | Icon | Hotkey | Function |
-|:---|:---:|:---:|:---|
-| **Brush** | <i class="fa-solid fa-paintbrush"></i> | `B` | Paints tiles or props. Supports brush radius from 1 to 6 hexes. |
-| **Fill Bucket** | <i class="fa-solid fa-fill-drip"></i> | `F` | Flood fills contiguous matching hexes with random variant support. |
-| **Eraser** | <i class="fa-solid fa-eraser"></i> | `E` | Erases tiles on the active layer. Supports brush radius 1–6. |
-| **Eyedropper** | <i class="fa-solid fa-eye-dropper"></i> | `I` | Samples any tile or prop on the map and switches to Brush. |
-| **Roads** | <i class="fa-solid fa-road"></i> | — | Connects adjacent hexes with styled dotted trail paths. |
-| **Rivers** | <i class="fa-solid fa-water"></i> | — | Connects adjacent hexes with flowing rivers and translucent banks. |
+| Tool | Function |
+|:---|:---|
+| **Brush** | Paints tiles or props. Supports brush radius from 1 to 6 hexes. |
+| **Fill Bucket** | Flood fills contiguous matching hexes with random variant support. |
+| **Eraser** | Erases tiles on the active layer. Supports brush radius 1–6. |
+| **Eyedropper** | Samples any tile or prop on the map and switches to Brush. |
+| **Roads** | Connects adjacent hexes with styled dotted trail paths. |
+| **Rivers** | Connects adjacent hexes with flowing rivers and translucent banks. |
 
 ---
 
