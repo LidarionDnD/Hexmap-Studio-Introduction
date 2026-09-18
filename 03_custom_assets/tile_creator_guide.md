@@ -101,4 +101,7 @@ In the Studio palette, you can right-click any custom element for instant manage
 * **Right-Click Category or Subcategory**:
   * **Edit**: Rename the group or change its accent color.
   * **Delete**: Removes the category/subcategory and cleans up all associated files.
+ 
+## 8. Import Hextiles
+Do you already have a collection of hextiles? Copy them, along with the corresponding registry.json, into the `WORLDNAME/hexmaps/_customtiles/` folder, and they will appear after you reload Foundry VTT.
 
