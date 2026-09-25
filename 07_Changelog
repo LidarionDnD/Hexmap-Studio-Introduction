@@ -1,0 +1,24 @@
+---
+layout: default
+title: Changelog
+nav_order: 8
+has_children: false
+permalink: /07_Changelog/
+---
+
+# Changelog - Lidarion: Hexmap Studio
+
+## [1.0.1] - 2026-09-25
+
+### Grid Boundary Enforcement
+- **Strict Hex Boundary Check:** With Infinity mode off, tiles can only be placed on hexes whose grid geometry lies 100% within the scene bounds. Cut-off or partial edge hexes are ignored. (That fixes a few problems temporarily, until I've found a better solution.)
+- **No Offshore Tiles:** Painting beyond scene boundaries or in the padding area is strictly prevented.
+- **Boundary-Aware Cursor:** Live hover highlight now stops cleanly at the last fully complete hex.
+
+### Eraser Persistence & Bugfixes
+- **Geometric Midpoint Eraser:** Tiles are now reliably erased whenever their midpoint lies within the targeted hex (via polygon containment, dynamic grid offset, and proximity).
+- **Offshore Tile Removal:** The eraser can target and clean up existing tiles outside the scene boundaries.
+- **Fixed `Tile "<id>" does not exist!` Error:** Resolved race conditions during fast mouse dragging via serialized stroke queues, in-flight deletion tracking, and ID deduplication.
+
+### Scene Baking
+- **Transparent Background (Alpha = 0):** Background color is no longer baked into WebP image tiles; unpainted areas remain completely transparent.
